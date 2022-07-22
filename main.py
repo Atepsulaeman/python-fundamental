@@ -17,4 +17,3 @@ print('Anak pulang kerumah, "dan Menyerahkan hasil belanja"')
 jumlah_botol_susu = 173
 julah_telur = 1587
 print(f"jumlah botol susu {jumlah_botol_susu} botol")
-
