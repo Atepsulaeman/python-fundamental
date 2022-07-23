@@ -1,5 +1,5 @@
 """
-Program Perulangan membaaca buku dengan while
+Program Perulangan membaaca buku dengan while sampai paham
 """
 jumlah_buku = 50
 print(f'jumlah Buku {jumlah_buku}')
