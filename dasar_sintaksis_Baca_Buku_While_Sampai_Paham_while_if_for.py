@@ -19,3 +19,4 @@ print ("SINTAKSIS MENGGUNAKAN WHILE, adalah : "
        "Selama kondisi belum terpenuhi maka program akan berjalan sampai kondisi terpenuhi.")
 
 
+
