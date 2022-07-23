@@ -15,3 +15,5 @@ print(f'jumlah buku yang sudah dibaca {jumlah_buku_yang_sudah_dibaca} ')
 print("HARUS BISA, DAN TETAP SEMANGAT WALAU JAUH DARI ANAK ISTI BAGI PEMULA")
 
 
+
+
