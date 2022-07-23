@@ -1,7 +1,7 @@
 """
 Program Perulangan membaaca buku dengan while
 """
-jumlah_buku = 10
+jumlah_buku = 50
 print(f'jumlah Buku {jumlah_buku}')
 print('Ibu berkata, "baca semua buku')
 
