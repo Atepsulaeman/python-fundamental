@@ -12,6 +12,6 @@ for jumlah_buku_yang_sudah_dibaca in range(1,jumlah_buku+1):
 
 print(f'jumlah buku yang sudah dibaca {jumlah_buku_yang_sudah_dibaca} ')
 
-
+print("HARUS BISA, DAN TETAP SEMANGAT WALAU JAUH DARI ANAK ISTI")
 
 
