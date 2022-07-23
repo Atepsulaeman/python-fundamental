@@ -1,5 +1,5 @@
 """
-Progrsam Perulangan membaaca buku dengan for
+Prograam Perulangan membaaca buku dengan for
 """
 jumlah_buku = 10
 print('Ibu berkata, "baca semua buku')
