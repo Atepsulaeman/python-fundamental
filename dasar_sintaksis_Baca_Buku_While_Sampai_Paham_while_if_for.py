@@ -20,3 +20,5 @@ print ("SINTAKSIS MENGGUNAKAN WHILE, adalah : "
 
 
 
+
+
