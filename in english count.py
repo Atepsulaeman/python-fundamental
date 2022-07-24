@@ -21,7 +21,7 @@ print(f'amount understood {amount_understood}')
 if amount_understood == book_count :
     print('"Mom All Books Have been read and understood ')
 else:
-    print(f'"Mother Not all books can be understood. Only Budi can understand {amount_understood} Books')
+    print(f'"Mother Not all books can be understood. Only jordan can understand {amount_understood} Books')
 
 ## while : selama kondisi belum terpenuhi maka program berjalan sampai kondisi terpenuhi #
 
