@@ -74,5 +74,10 @@ for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
 
+print('\n#.Perintah del dengan list comprehension start') # Pertanyaan : Pengen ada keterangan BUKU SUDAH DIHAPUS gimana?
+daftar_buku =['Quantum ikhlas','Jalan langit','Secret','Jalan Allah']
+del daftar_buku[0:3] # note : index dihitung dari nol tetapi jumlah tetap dihitung dari satu
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i]) # penjelasan kodenya : Daftar Buku yang akan dihapus 1-3 menyisakan buku terakhir
 
 
