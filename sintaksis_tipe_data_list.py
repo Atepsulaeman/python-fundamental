@@ -56,10 +56,22 @@ for i in range(0, len(daftar_buku)):
 
 print('\n#.Pop-1 artinya sisa yang diambil dari paling ujung')
 daftar_buku =['Quantum ikhlas','Jalan langit','Secret','Jalan Allah']
-daftar_buku.pop(-1)
+daftar_buku.pop(-4)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
+print('\n#Perintah del')
+daftar_buku =['Quantum ikhlas','Jalan langit','Secret','Jalan Allah'] # tambahkan nomer urut ke bawah gimana?
+del daftar_buku[1]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+
+print('\n#.Perintah del dengan list comprehension') # Pertanyaan : Pengen ada keterangan BUKU SUDAH DIHAPUS gimana?
+daftar_buku =['Quantum ikhlas','Jalan langit','Secret','Jalan Allah']
+del daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
 
 
 
