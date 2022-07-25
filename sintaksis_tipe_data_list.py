@@ -48,9 +48,17 @@ buku = daftar_buku.pop(1)  # perintah pop mengambil elemen di bagian list ke ?
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
-print('\n#.Buku yang diambil Tadi')
-print(buku)
+print('\n#.Pop artinya yang diambil')
 daftar_buku.pop()
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+
+print('\n#.Pop-1 artinya sisa yang diambil dari paling ujung')
+daftar_buku =['Quantum ikhlas','Jalan langit','Secret','Jalan Allah']
+daftar_buku.pop(-1)
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
 
 
 
