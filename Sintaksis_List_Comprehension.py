@@ -22,3 +22,14 @@ del daftar_buku[0: :2] # start : End : STEP # note : ( Menggunakan (: : ) Mengha
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
+
+print('\n#.Membuat List Baru')
+daftar_buku =['Quantum ikhlas','Jalan langit','Secret','Jalan Allah']
+daftar_buku_baru = daftar_buku
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+print('\n#.Membuat List Baru')
+del daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
