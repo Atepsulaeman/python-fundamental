@@ -8,6 +8,10 @@ users = {  # {} artinya dictionery
     "suite": "Apt. 556",
     "city": "Gwenborough",
     "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+        }
   }
 }
 
@@ -28,6 +32,12 @@ print("="*20)
 print(users["address"]["city"])
 print("="*20)
 print(users["address"]["zipcode"])
+print("="*20)
+print(users["address"]["geo"]["lat"])
+print(users["address"]["geo"]["lng"])
+
+print("="*20)
+print("by ATEP SULAEMAN")
 
 
 
