@@ -39,7 +39,6 @@ print(users["address"]["geo"]["lng"])
 print("="*20)
 print("by ATEP SULAEMAN")
 
-
   # merubah dictionery python ke json
 print(users)
 print("\nubah dict ke json")
