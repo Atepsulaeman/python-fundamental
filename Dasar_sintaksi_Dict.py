@@ -40,4 +40,15 @@ print("="*20)
 print("by ATEP SULAEMAN")
 
 
+  # merubah dictionery python ke json
+print(users)
+print("\nubah dict ke json")
+import json
+result =json.dumps(users)  #dumps = artinya tipe data string
+print(result)
+
+with open("result.json", "w") as file : # perintah untuk membuka file di json # #Menulis hasilnya ke file dengan perintah parameternya adalah file
+      json.dump(users, file)
+
+
 
