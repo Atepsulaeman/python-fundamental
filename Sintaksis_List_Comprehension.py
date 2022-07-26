@@ -39,3 +39,23 @@ del daftar_buku[:]
 for i in range(0, len(daftar_buku_baru)):
     print(daftar_buku_baru[i])
 
+
+print('\n#.Membuat List Baru Menggunakan conprehension : # Ganjil #')
+print('=' *60)
+daftar_buku =['1.Quantum ikhlas','2.Jalan langit','3.Secret','4.Jalan Allah']
+daftar_buku_baru = daftar_buku[1: :2]
+for i in range (0, len (daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+
+print('\n#.Membuat List Baru Menggunakan conprehension : # Genap #')
+print('=' *60)
+daftar_buku =['1.Quantum ikhlas','2.Jalan langit','3.Secret','4.Jalan Allah']
+daftar_buku_baru = daftar_buku[0: :2]
+for i in range (0, len (daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+print('\n#.Membuat List Baru Menggunakan conprehension : # Genap #')
+print('=' *60)
+daftar_buku =['1.Quantum ikhlas','2.Jalan langit','3.Secret','4.Jalan Allah']
+print(daftar_buku[0::2])
